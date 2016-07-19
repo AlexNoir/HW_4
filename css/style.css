@@ -18,6 +18,10 @@ header {
     position: relative;
     width: 100%;
 }
+.contacts a {
+    text-decoration: none;
+    color: #128aa7;
+}
 .contacts h4,
 .contacts p {
     font-family: "Tahoma Regular", sans-serif;
@@ -82,6 +86,7 @@ font-family: "Tahoma Regular", sans-serif;
 }
 .sub_menu {
     position: absolute;
+    height: 200px;
     width: 120px;
     top: 32px;
     box-shadow: 0 10px 4px -4px #323232,
@@ -99,7 +104,7 @@ font-family: "Tahoma Regular", sans-serif;
     font-size: 14px;
     color: #ffffff;
 }
-.triangle a div {
+.triangle a span {
     width: 0;
     height: 0;
     border-left: 3px solid transparent;
@@ -161,4 +166,8 @@ footer p {
     width: 200px;
     padding: 7px 0;
     margin: 0 auto;
+}
+footer a {
+    color: #ffffff;
+    text-decoration: none;
 }
