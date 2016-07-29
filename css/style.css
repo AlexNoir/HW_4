@@ -71,13 +71,14 @@ font-family: "Tahoma Regular", sans-serif;
     background: #323232;
     border-bottom: 1px solid #000000;
     margin-top: -2px;
+    /*padding-left: 5px;*/
     box-shadow: 0 4px 2px -2px #323232;
 }
 .nav_menu > li {
     display: inline-block;
     position: relative;
-    margin-left: 65px;
-    padding: 7px 0;
+    margin-left: 40px;
+    padding: 7px 7px;
 }
 .nav_menu > li:nth-child(3),
 .nav_menu > li:nth-child(4),
@@ -87,8 +88,9 @@ font-family: "Tahoma Regular", sans-serif;
 .sub_menu {
     position: absolute;
     height: 200px;
-    width: 120px;
+    width: 150px;
     top: 32px;
+    left: 0;
     box-shadow: 0 10px 4px -4px #323232,
     -2px 0 1px -2px #323232,
     1px 0 1px -1px #323232;
@@ -96,7 +98,7 @@ font-family: "Tahoma Regular", sans-serif;
 	background-color: #323232;
 }
 .sub_menu li {
-    padding: 7px 0 7px 7px;
+    padding: 2px 0 7px 9px;
 }
 .nav_menu a {
     text-decoration: none;
@@ -121,9 +123,7 @@ main {
     overflow: hidden;
 }
 .column {
-    /*float: left;*/
-    padding-bottom: 20000px;
-    margin-bottom: -20000px;
+    height: 500px;
 }
 .leftcol {
     float: left;
@@ -133,6 +133,7 @@ main {
     box-sizing: border-box;
 }
 .centercol {
+    float: left;
     width: 58%;
 }
 .rightcol {
